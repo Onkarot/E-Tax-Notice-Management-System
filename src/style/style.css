@@ -1,0 +1,690 @@
+.home{
+    margin-top: 5%;
+}
+
+.about{
+    margin-top: 10%;
+}
+
+.aboutInfo{
+    margin-top: 5%;
+}
+
+.contact-us{
+    margin-top: 10%;
+}
+
+.career {
+    font-size: 50px;
+    margin-top: 10%;
+}
+
+.getstart{
+    margin-top: 10%;
+}
+
+.otp{
+    margin-top: 10%;
+}
+
+.dashboard-option{
+    margin-top: 7%;
+    margin-bottom: 0%;
+}
+
+.nav-item {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: black !important;
+    padding: 15px !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: lightslategray !important;
+}
+
+.ft {
+    background-color: white
+}
+
+.dropdown-menu {
+    width: auto;
+    padding: 20px;
+}
+
+.dropdown-menu .container {
+    padding: 0;
+}
+
+.dropdown-menu .row {
+    margin: 0;
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    width: auto;
+}
+
+.dropdown-menu h6 {
+    color: #007bff;
+}
+
+.shadow li a{
+    text-decoration: none;
+}
+
+
+/* ------------------------------ Home Page Design Start ------------------------------ */
+.hmimg img{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+}
+
+.title1{
+    margin-top: 15%;
+    text-align: left;
+}
+
+.title1 p{
+    font-size: 3vw;
+    line-height: 5vw;
+    font-weight: bold;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    word-spacing: 0.2vw;
+    letter-spacing: 0.2vw;
+}
+
+.title2{
+    margin-top: 1%;
+    text-align: left;
+}
+
+.title2 p{
+    color: black;
+    font-family:"Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:18px;
+    line-height: 2.5vw;
+}
+
+@media (max-width: 768px) {
+    .title1 p {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .title2 p{
+        font-size: 3vw;
+        line-height: 25px;
+    }
+}
+
+/* Adjusting for very small screens */
+@media (max-width: 480px) {
+    .title1 p {
+        margin-top: 0.5%;
+        font-size: 4vw;
+        line-height: 6vw;
+        word-spacing: 2vw;
+        letter-spacing: 1vw;
+    }
+
+    .title2 p {
+        font-size: 3vw;
+        line-height: 15px;
+    }
+}
+
+.button {
+    text-align: left;
+    margin-top: 3%;
+}
+
+.btnhome {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    margin-right: 5%;
+    padding: 10px;
+    font-size: 16px;
+    transition: background-color 0.6s ease;
+}
+
+@media (max-width: 768px) {
+    .btnhome{
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+@media (max-width: 480px) {
+    .btnhome{
+        padding: 4px;
+        font-size: 10px;
+    }
+}
+
+
+.btnhome:hover {
+    border: none;
+    background-color: green;
+    color: white;
+}
+
+.img-fluid {
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .img-fluid {
+        margin-top: 5%;
+    }
+}
+
+.feature {
+    border: 1px solid black;
+    height: auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.featuretitle {
+    text-align: left;
+    color: #007bff;
+}
+
+.fetureinfo {
+    text-align: left;
+}
+
+@media (max-width: 992px) {
+    .feature {
+        width: 100%;
+    }
+
+    .col-lg-1 i {
+        display: none;
+    }
+}
+
+.homequestin1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    text-decoration: none;
+}
+
+.card-header a {
+    text-decoration: none;
+    color: black;
+}
+
+.faqs .card{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
+.faqs {
+    margin-top: 5%;
+    background: linear-gradient(100deg, #f2faff 0%, #f2faff 100%);
+}
+
+
+.questinans {
+    text-align: left;
+}
+
+.card-header {
+    border: none;
+}
+
+.question {
+    margin-top: 2%;
+}
+
+.trialhome{
+    background: linear-gradient(100deg, #f2faff 0%, #f2faff 100%);
+}
+
+.trialhome .h2{
+    padding-top: 2%;
+}
+
+.trial {
+    height: auto;
+    padding: 30px;
+}
+
+.traialtext {
+    text-align: left;
+    margin-bottom: 0;
+    padding: 10px;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mainbtn{
+    width: 100%;
+    margin-top: auto;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.col-lg-1{
+    margin-top: 2%;
+}
+
+
+/* ------------------------------ About Page Design Start ------------------------------ */
+.aboutsection1 {
+    height: auto;
+}
+
+@media (max-width: 967px) {
+    .aboutsection1 {
+        padding-top: 20%;
+    }
+}
+
+.aboutsection2 {
+    text-align: left;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 5px;
+    line-height: 35px;
+    padding-top: 50px;
+}
+
+.abtclint{
+    background-color: paleturquoise;
+}
+
+.abtclint .h4{
+    padding-top: 2%;
+}
+
+
+.abtclient {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+.abtclient .col-lg-6{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+}
+
+.abtsectitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex: 1;
+}
+
+.card img {
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+
+/* ------------------------------ Contact us Design Start ------------------------------ */
+.map {
+    margin-top: 5%;
+}
+
+.cufield {
+    text-align: left;
+}
+
+.btnsend{
+    width: 90%;
+}
+
+/* ------------------------------ Career us Design Start ------------------------------ */
+
+.subtitle p {
+    text-align: center;
+    font-size: 17px;
+    color: grey;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+
+.avbpos {
+    text-align: center;
+}
+
+.careers2 {
+    margin-top: 5%;
+}
+
+.careerpoints {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+.careerpoints2 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-container {
+    width: 70%;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .image-container img {
+        width: 48%;
+    }
+}
+
+@media (max-width: 480px) {
+    .image-container img {
+        width: 98%;
+    }
+}
+
+
+.carpoints {
+    padding-top: 30px;
+}
+
+.carpoints ul {
+    padding-top: 15px;
+}
+
+@media (max-width: 992px) {
+    .careerpoints .col-lg-6 {
+        margin-bottom: 20px;
+    }
+}
+
+.carpoints ul li {
+    text-align: left;
+    line-height: 40px;
+}
+
+.apply-btn{
+    width: 100%;
+}
+
+/* ------------------------------ Login Design Start ------------------------------ */
+
+.loginpg {
+    margin-top: 7%;
+}
+
+.btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 0rem;
+}
+
+.btn-google {
+    color: white !important;
+    background-color: #ea4335;
+}
+
+.btn-facebook {
+    color: white !important;
+    background-color: #3b5998;
+}
+
+.fp {
+    text-decoration: none;
+}
+
+.fp:hover a {
+    color: blue;
+}
+
+.github{
+    background-color: black;
+    color: white;
+}
+
+.github:hover{
+    color: white;
+}
+
+/* ------------------------------ Signup Design Start ------------------------------ */
+.signup1 {
+    border-radius: 15px;
+    margin-top: 6%;
+}
+
+.style2 {
+    color: #4835d4;
+}
+
+@media (min-width: 1025px) {
+    .h-custom {
+        height: auto !important;
+    }
+}
+
+.inputtxt {
+    font-size: 15px;
+}
+
+.option {
+    width: 100%;
+    max-width: 100%;
+    height: 35px;
+    border: 1px solid grey;
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+.gradient-custom-2 {
+    background: #a1c4fd;
+    background: -webkit-linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1));
+    background: linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1))
+}
+
+.bg-indigo {
+    background-color: #4835d4;
+}
+
+@media (min-width: 992px) {
+    .card-registration-2 .bg-indigo {
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    .card-registration-2 .bg-indigo {
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+}
+
+.btnsignup {
+    width: 100%;
+}
+
+.lgtext {
+    text-align: center;
+}
+
+/* ------------------------------ Get Start Design Start ------------------------------ */
+.col-lg-6 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ---------- Single ITR Design Start ---------- */
+
+.ITR {
+    border: 0px;
+    box-shadow: 0px 0px 6px 0px#888888;
+}
+
+.fieldssingleITR {
+    padding: 20px;
+}
+
+.btnsingleITRback {
+    width: 100%;
+    background-color: #000;
+    color: white;
+    font-weight: bold;
+}
+
+.btnsingleITRback:hover {
+    color: white;
+}
+
+.btnsigneITRgetdoc {
+    width: 100%;
+    font-weight: bold;
+}
+
+.noteSingleITR{
+    text-align: left;
+}
+
+/* ------------------------------ OTP Verification page Design Start ------------------------------ */
+.otp-letter-input{
+    max-width: 100%;
+    height: 90px;
+    border: 1px solid #198754;
+    border-radius:10px;
+    color: #198754;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* ------------------------------ Dashboard Design Start ------------------------------ */
+.clientlist{
+    width: 500px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.dashboard{
+    border: 1px solid black;
+}
+
+.dashboard .col-lg-3 h5{
+    margin-top: 3.5%;
+    margin-bottom: 2%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dashboard h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dashboard-list{
+    border: 1px solid black;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.description{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+}
+
+.dashboard-description{
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+}
+
+.dashbord-list Link a{
+    text-decoration: none;
+}
+
+.dashboard-back-btn{
+    margin-top: auto;
+    padding: 10px;
+    margin-bottom: 2%;
+}
+
+.dashboard-back-btn button{
+    background-color: #198754;
+    width: 100%;
+}
+
+.tblinfo tr th{
+    border: 1px solid black;
+}
+
+.info-title h5{
+    color:#007bff;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.form-check-input{
+    cursor: pointer;
+    border-color: #000;
+}
+
+.form-check-label{
+    cursor: pointer;
+}
+
+.download-info tr th{
+    border: 1px solid black;
+}
+
+.option_ITR{
+    margin-top: 5%;
+}
+
+/* ------------------------------ Footer Design Start ------------------------------ */
+.footer {
+    background-color: azure;
+}
+
+.linksfooter p a {
+    text-decoration: none;
+}
+
+.copyright {
+    text-decoration: none;
+}
